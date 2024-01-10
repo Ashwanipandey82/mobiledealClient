@@ -69,7 +69,7 @@ const Login = () => {
             <div className='login'>
                 <div className="container auth-container">
                     <div className="form-wrapper">
-                        <h3 className="form-wrapper-title">AutoDeals - Login</h3>
+                        <h3 className="form-wrapper-title">Mobile Deals - Login</h3>
                         <form className="auth-form" onSubmit={handleSubmit}>
                             <div className="form-item">
                                 <input type="email" name="email" value={email} className="form-input" placeholder="Enter Email" onChange={(e) => setEmail(e.target.value)} required />
