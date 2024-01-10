@@ -72,7 +72,7 @@ const Register = () => {
       <div className="register">
         <div className="container auth-container">
           <div className="form-wrapper">
-            <h3 className="form-wrapper-title">AutoDeals - Register</h3>
+            <h3 className="form-wrapper-title">MobileDeals - Register</h3>
             <form className="auth-form" onSubmit={handleSubmit}>
               <div className="form-item">
                 <input type="text" name="name" value={name} className="form-input" placeholder="Enter Name" onChange={(e) => setName(e.target.value)} required />
